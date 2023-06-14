@@ -1,0 +1,210 @@
+/* Navigation Menu */
+
+@import url("../../AssetsMain/Css/navigation.css");
+
+/*Default Styles*/
+
+/* @import url("../../AssetsMain/Css/default.css"); */
+
+/*Fonts*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+
+/*--------From style-5.css------Line num 594 to 660----------4. Header-------------------------------------------*/
+
+.main-logo {
+    width: 200px;
+}
+
+#top-bar {
+    position: relative;
+    z-index: 99999;
+    background: #fff;
+    /* background: #ef7777; */
+    border-bottom: 1px solid #eee;
+}
+
+.top-bar-info {
+    padding: 0px;
+}
+
+.top-bar-info li {
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaa;
+    border-left: 1px solid #eee;
+    list-style-type: none;
+    float: left;
+    margin: 0px;
+    padding: 13.5px 14px 12.5px 14px;
+}
+
+.top-bar-info li i {
+    font-size: 15px;
+    color: #222;
+    padding-right: 8px;
+}
+
+.top-bar {
+    background-color: #023885;
+    border-bottom: 1px solid #f04038;
+}
+
+.top-bar.color-bar {
+    border-bottom: 0;
+}
+
+.top-bar.color-bar a {
+    color: rgba(255, 255, 255, .6);
+}
+
+.top-bar.color-bar a:hover {
+    color: rgb(91, 124, 244) !important;
+}
+
+.top-bar.color-bar ul.social-list li a i {
+    border-left: 1px solid rgba(255, 255, 255, .1);
+}
+
+.top-bar.color-bar ul.social-list li:last-child a i {
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.top-bar.color-bar .contact-details li a:before {
+    color: rgba(255, 255, 255, .2);
+}
+
+.top-bar.dark-bar {
+    background-color: #444;
+    border-bottom: 0;
+}
+
+.top-bar.dark-bar a {
+    color: rgba(255, 255, 255, .4);
+}
+
+.top-bar.dark-bar a:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.top-bar.dark-bar ul.social-list li a i {
+    border-left: 1px solid rgba(255, 255, 255, .08);
+}
+
+.top-bar.dark-bar ul.social-list li:last-child a i {
+    border-right: 1px solid rgba(255, 255, 255, .08);
+}
+
+.top-bar.dark-bar .contact-details li a:before {
+    color: rgba(255, 255, 255, .2);
+}
+
+.top-bar a {
+    color: #ffffff;
+}
+
+.top-bar .contact-details li {
+    display: inline-block;
+}
+
+.top-bar .contact-details li a:before {
+    position: relative;
+    content: "|";
+    font-size: 13px;
+    margin: 0 3px;
+    top: -1px;
+    color: #ddd;
+}
+
+.top-bar .contact-details li a:before {
+    color: #666;
+}
+
+.top-bar .contact-details li:first-child a:before {
+    display: none;
+}
+
+.top-bar .contact-details li a {
+    font-size: 12px;
+    display: block;
+    line-height: 32px;
+}
+
+ul.social-list {
+    float: right;
+}
+
+ul.social-list li {
+    float: left;
+}
+
+ul.social-list li a {
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+ul.social-list li a:hover {
+    color: #fff;
+}
+
+ul.social-list li a.facebook:hover {
+    background-color: #507CBE;
+}
+
+ul.social-list li a.twitter:hover {
+    background-color: #63CDF1;
+}
+
+ul.social-list li a.google:hover {
+    background-color: #F16261;
+}
+
+ul.social-list li a.dribbble:hover {
+    background-color: #E46387;
+}
+
+ul.social-list li a.linkdin:hover {
+    background-color: #90CADD;
+}
+
+ul.social-list li a.tumblr:hover {
+    background-color: #4D7EA3;
+}
+
+ul.social-list li a.flickr:hover {
+    background-color: #E474AF;
+}
+
+ul.social-list li a.instgram:hover {
+    background-color: #4D4F54;
+}
+
+ul.social-list li a.vimeo:hover {
+    background-color: #87D3E0;
+}
+
+ul.social-list li a.skype:hover {
+    background-color: #36C4F3
+}
+
+ul.social-list li a i {
+    font-size: 1em;
+    display: block;
+    width: 34px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-left: 1px solid #f2f2f2;
+}
+
+ul.social-list li:last-child a i {
+    border-right: 1px solid #f2f2f2;
+}
+
+/* ============ */
