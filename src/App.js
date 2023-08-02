@@ -1,4 +1,5 @@
 import React from "react";
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import {
@@ -23,12 +24,12 @@ import { Routes } from "react-router-dom";
 // import '../src/Components/Footer2a/css/themify-icons.css';
 
 // import Navbar1 from './Components/Navbar1/Navbar1';
-import Navbar2 from './Components/NavBar2/Navbar2';
+// import Navbar2 from './Components/NavBar2/Navbar2';
 // import Navbar4 from './Components/NavBar4/Navbar4';
 // import Navbar5 from './Components/Navbar5/Navbar5';
-// import Navbar6 from './Components/Navbar6/Navbar6';
+import Navbar6 from './Components/Navbar6/Navbar6';
 import UpperNavbar from './Components/UpperNavbar/UpperNavbar';
-// import Navbar1a from './Components/Navbar1a/Navbar1a';
+//import Navbar1a from './Components/Navbar1a/Navbar1a';
 import Video1 from './Components/Video1/Video1';
 // import Card3 from "./Components/Card3/Card3";
 
@@ -73,11 +74,11 @@ function App() {
       {/* <Navbar1a /> */}
       {/* <Navbar4a /> */}
       {/* <MyNavbar /> */}
-      <Navbar2 />
+      {/* <Navbar2 /> */}
       {/* <Navbar1 /> */}
       {/* <Navbar4 /> */}
       {/* <Navbar5 /> */}
-      {/* <Navbar6 /> */}
+      <Navbar6 />
 
       <Video1 />
 

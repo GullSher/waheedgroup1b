@@ -1,53 +1,69 @@
-import '../Navbar6/Navbar6js.js';
-import '../Navbar6/Navbar6css.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-// import { logo } from ".../src/Assets/waheedgroup-logo.jpg";
-// import '../Assets/logo/waheedgroup-logo.jpg';
+import "./Navbar6js.js";
+import "./Navbar6css.css";
 
-// function Navbar5() {
+
 const Navbar6 = () => {
     return (
-        <nav>
-            <div class="navbar">
-                <a href="#home">Home</a>
-                <div class="subnav">
-                    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                        <a href="#company">Company</a>
-                        <a href="#team">Team</a>
-                        <a href="#careers">Careers</a>
-                    </div>
-                </div>
-                <div class="subnav">
-                    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                        <a href="#bring">Bring</a>
-                        <a href="#deliver">Deliver</a>
-                        <a href="#package">Package</a>
-                        <a href="#express">Express</a>
-                    </div>
-                </div>
-                <div class="subnav">
-                    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                        <a href="#link1">Link 1</a>
-                        <a href="#link2">Link 2</a>
-                        <a href="#link3">Link 3</a>
-                        <a href="#link4">Link 4</a>
-                    </div>
-                </div>
-                <a href="#contact">Contact</a>
-            </div>
+        <div className="navigation-fixed-wrapper" style={{ top: '0px' }}>
+            <nav id="navigation4" className="container navigation navigation-landscape" style={{ width: '1423px' }}>
 
-            {/* <div style="padding:0 16px"> */}
-            {/* <div style={{ padding( 0 16px) }} > */}
-            {/* <div style={{ padding: 0 16 }} > */}
-            <div>
-                {/* style={{ marginRight: spacing + 'em' }} */}
-                <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
-                <p>Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p>
-            </div>
-        </nav >
+                <div className="nav-header"><a className="nav-brand" href="index.html">
+                    {/* <img src={{ '../../AssetsMain/Img/whImages/logo.png'}} className="main-logo" alt="logo" id="main_logo" /></a> */}
+                    <img src="../../AssetsMain/Img/whImages/logo.png" className="main-logo" alt="logo" id="main_logo" /></a>
+                    <div className="nav-toggle"></div>
+                </div>
+
+                <div className="nav-menus-wrapper">
+                    <span className="nav-menus-wrapper-close-button">Gamaaxxxx✕</span>
+                    <ul className="nav-menu align-to-right">
+                        <li><a href="index.html">Home</a></li>
+
+                        <li className="dropdown">
+                            {/* <a href="#">About Us<span className="submenu-indicator dropdown-toggle"> */}
+                            <a href="#">About Us
+                                <span className="dropdown-toggle" data-toggle='drowpdown'>
+                                    {/* <span className="submenu-indicator-chevron"></span> */}
+                                </span></a>
+
+                            <ul className="dropdown-menu nav-submenu" style={{ right: 'auto' }}>
+                                <a href="chairman.html" className='dropdown-item'>Chairman</a>
+                                <a href="directors.html" className='dropdown-item'>Directors</a>
+                                <a href="awards.html" className='dropdown-item'>Awards</a>
+                                <a href="aboutus.html" className='dropdown-item'>About Us </a>
+
+                                {/* <li><a href="chairman.html">Chairman</a></li>
+                                <li><a href="directors.html">Directors</a></li>
+                                <li><a href="awards.html">Awards</a></li>
+                                <li><a href="aboutus.html">About Us </a></li> */}
+                            </ul>
+                        </li>
+
+                        <li className='dropdown'><a href="#">Our Concerns<span className="submenu-indicator"><span className="submenu-indicator-chevron"></span></span></a>
+                            {/* <ul className="nav-dropdown nav-submenu" style={{ right: 'auto' }}> */}
+                            <ul className="nav-dropdown" style={{ right: 'auto' }}>
+
+                                <li><a href="oil&amp;ghee.html">Oil &amp; Ghee</a></li>
+                                <li><a href="industrial-fat.html">Industrial Fat</a></li>
+                                <li><a href="transport.html">Transport</a></li>
+                                <li><a href="hotel.html">Hotel</a></li>
+                                <li><a href="energy-sector.html">Energy Sector</a></li>
+                                <li><a href="wgc-interprises-ltd.html">WGC Interprises Ltd</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="products.html">Our Products</a></li>
+                        <li><a href="latestNews.html">Latest News</a></li>
+                        <li><a href="gallery.html">Media Gallery</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div className="nav-overlay-panel"></div>
+            </nav>
+        </div>
 
     )
 }

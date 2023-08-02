@@ -1,6 +1,6 @@
 /* Navigation Menu */
 
-@import url("../../AssetsMain/Css/navigation.css");
+/* @import url("../../AssetsMain/Css/navigation.css"); */
 
 /*Default Styles*/
 
@@ -14,6 +14,7 @@
 
 
 /*--------From style-5.css------Line num 594 to 660----------4. Header-------------------------------------------*/
+
 
 .main-logo {
     width: 200px;
@@ -206,5 +207,3 @@ ul.social-list li a i {
 ul.social-list li:last-child a i {
     border-right: 1px solid #f2f2f2;
 }
-
-/* ============ */
